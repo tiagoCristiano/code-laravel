@@ -52,7 +52,7 @@ $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
-die(var_dump($response));
+
 
 
 $response->send();
