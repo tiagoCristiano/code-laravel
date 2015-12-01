@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('ola/{nome}','TestController@index' );
-Route::get('notas/{nome}','TestController@notas' );
+Route::get('notas','TestController@notas' );

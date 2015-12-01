@@ -1,9 +1,9 @@
 @extends('template')
 
 @section('title')
-    Ol· {{$nome}}
+    Ol√° {{$nome}}
 @stop
 
 @section('content')
-    <h1>Ol· {{$nome}} </h1>
+    <h1>Ol√° {{$nome}} </h1>
 @stop
